@@ -14,7 +14,7 @@ const researchEntries = [
   {
     title: "Generalization Analogies (Genies): A Testbed for Generalizing AI Oversight to Hard-to-Measure Domains",
     authors: [
-      { name: "Joshua Clymer" },
+      { name: "Joshua Clymer", isPI: true },
       { name: "Garrett Baker" },
       { name: "Rohan Subramani", isPI: true },
       { name: "Sam Wang" }
