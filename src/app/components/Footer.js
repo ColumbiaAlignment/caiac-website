@@ -7,7 +7,7 @@ export default function Footer() {
             <img 
               src="/logo.svg" 
               alt="Columbia AI Safety"
-              className="h-12 w-auto mb-6 brightness-0 invert" // Makes the logo white
+              className="h-12 w-auto mb-6 brightness-0 invert" 
             />
             <p className="text-white hover:text-gray-300 transition-colors">
               Columbia University&apos;s student organization dedicated to AI safety research and education.
@@ -25,7 +25,7 @@ export default function Footer() {
                   href="mailto:cualignment@gmail.com" 
                   className="text-white hover:text-gray-300 transition-colors"
                 >
-                  Contact Us
+                  cualignment@gmail.com
                 </a>
               </p>
             </div>
