@@ -6,21 +6,40 @@ export default function TeamPage() {
       image: "/team/yaumengwong.png",
     },
     {
+      name: "Ryan Zhang",
+      title: "Deputy Director",
+      image: "/team/ryan-zhang.jpg",
+    },
+    {
       name: "Thomas Gansa",
       title: "Communications Lead",
       image: "/team/thomasgansa.png",
     },
     {
-      name: "Ryan Zhang",
-      title: "Marketing/Outreach Lead",
-      image: "/team/ryan-zhang.jpg",
-    },
-    {
       name: "Shivani Rajagopalan",
       title: "Treasurer",
       image: "/team/shivani-rajagopalan.jpeg",
+    },
+    {
+      name: "Pranav Mehta",
+      title: "Policy Fellowship Lead",
+      image: "/team/pranav_mehta.jpeg",
+    },
+    {
+      name: "Catherine Mok",
+      title: "Technical Facilitator",
+      image: "/team/catherine_mok.jpg",
+    },
+    {
+      name: "Josh Ying",
+      title: "Technical Facilitator",
+      image: "/team/josh_ying.jpeg",
+    },
+    {
+      name: "Junyao Chen",
+      title: "Technical Facilitator",
+      image: "/team/junyao_chen.jpg",
     }
-    
   ];
 
   return (
