@@ -16,14 +16,14 @@ export default function TeamPage() {
       image: "/team/thomasgansa.png",
     },
     {
-      name: "Shivani Rajagopalan",
-      title: "Treasurer",
-      image: "/team/shivani-rajagopalan.jpeg",
-    },
-    {
       name: "Pranav Mehta",
       title: "Policy Fellowship Lead",
       image: "/team/pranav_mehta.jpeg",
+    },
+    {
+      name: "Shivani Rajagopalan",
+      title: "Treasurer",
+      image: "/team/shivani-rajagopalan.jpeg",
     },
     {
       name: "Catherine Mok",
@@ -39,6 +39,16 @@ export default function TeamPage() {
       name: "Junyao Chen",
       title: "Technical Facilitator",
       image: "/team/junyao_chen.jpg",
+    },
+    {
+      name: "Akshay Manglik",
+      title: "Technical Facilitator",
+      image: "/team/akshay_manglik.jpg",
+    },
+    {
+      name: "Aiste Merfeldaite",
+      title: "Policy Facilitator",
+      image: "/team/aiste_merfeldaite.jpg",
     }
   ];
 
