@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Docker (recommended)
+Install docker to your system: 
+
+```bash
+docker build -t cuea-website .
+docker compose up
+```
+
+### Manual
 First, run the development server:
 
 ```bash
