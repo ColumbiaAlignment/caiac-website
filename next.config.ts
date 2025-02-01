@@ -9,6 +9,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  // standalone for docker
+  output: "standalone",
+
 };
 
 module.exports = nextConfig;
