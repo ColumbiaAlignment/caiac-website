@@ -19,7 +19,7 @@ const MobileNavbar = () => {
       { label: 'About', submenu: 'about' },
       { label: 'Research', href: '/research' },
       { label: 'Get Involved', submenu: 'getInvolved' },
-      { label: 'Blog', href: '/blog' }
+      { label: 'Resources', submenu: 'resources' }
     ],
     about: [
       { label: 'Home', href: '/' },
@@ -32,11 +32,8 @@ const MobileNavbar = () => {
       { label: 'Research Groups', href: '/get_involved/research-groups' }
     ],
     resources: [
-      { label: 'Technical Papers', href: '/resources/technical-papers' },
-      { label: 'Policy Papers', href: '/resources/policy-papers' },
-      { label: 'Non-Technical Intro', href: '/resources/non-technical-intro' },
-      { label: 'Many Other Resources', href: '/resources/many-other-resources' },
-      { label: 'Blog', href: '/resources/blog' }
+      { label: 'Blog', href: '/resources/blog' },
+      { label: 'Policy Resources', href: '/resources/policy-resources' },
     ]
   };
 
