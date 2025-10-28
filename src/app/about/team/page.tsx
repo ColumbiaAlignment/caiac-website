@@ -19,6 +19,12 @@ export default function TeamPage() {
       link: "https://www.linkedin.com/in/paul-kroeger/"
     },
     {
+      name: "Emilio Barkett",
+      title: "Research Manager",
+      image: "/team/emilio_barkett.jpg",
+      link: "https://www.linkedin.com/in/emiliobarkett/"
+    },
+    {
       name: "Thomas Gansa",
       title: "Communications Lead",
       image: "/team/thomasgansa.png",
