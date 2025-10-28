@@ -59,7 +59,13 @@ export default function TeamPage() {
       title: "Policy Facilitator",
       image: "/team/aiste_merfeldaite.jpg",
       link: "https://www.linkedin.com/in/aiste-merfeldaite-56652020b/"
-    }
+    },
+    {
+      name: "Farhaan Siddiqui",
+      title: "Operations Assistant",
+      image: "/team/farhaan-siddiqui.jpg",
+      link: "https://www.linkedin.com/in/farhaan-s-797650224/"
+    },
   ];
 
   const advisors = [
