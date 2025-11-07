@@ -72,6 +72,12 @@ export default function TeamPage() {
       image: "/team/farhaan-siddiqui.jpg",
       link: "https://www.linkedin.com/in/farhaan-s-797650224/"
     },
+    {
+      name: "Anwen Hao",
+      title: "Events Lead",
+      image: "/team/anwen_hao.jpg",
+      link: "https://www.linkedin.com/in/anwen-hao"
+    }
   ];
 
   const advisors = [
