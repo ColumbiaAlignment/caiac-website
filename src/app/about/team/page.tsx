@@ -19,65 +19,83 @@ export default function TeamPage() {
       link: "https://www.linkedin.com/in/paul-kroeger/"
     },
     {
+      name: "Josefina Piddo",
+      title: "Policy Director",
+      image: "/team/josefina_piddo.jpg",
+      link: "https://www.linkedin.com/in/josefina-piddo/"
+    },
+    {
+      name: "Farhaan Siddiqui",
+      title: "Operations Lead",
+      image: "/team/farhaan-siddiqui.jpg",
+      link: "https://www.linkedin.com/in/farhaan-s-797650224/"
+    },
+    {
+      name: "Arjun Balaji",
+      title: "Events Co-Lead",
+      image: "/team/arjun_balaji.jpeg",
+      link: "https://www.linkedin.com/in/arjunbalaji02/"
+    },
+    {
+      name: "Anwen Hao",
+      title: "Events Co-Lead",
+      image: "/team/anwen_hao.jpg",
+      link: "https://www.linkedin.com/in/anwen-hao"
+    },
+    {
       name: "Emilio Barkett",
-      title: "Research Manager",
+      title: "Fall '25 Policy Facilitator, Research Manager",
       image: "/team/emilio_barkett.jpg",
       link: "https://www.linkedin.com/in/emiliobarkett/"
     },
     {
-      name: "Thomas Gansa",
-      title: "Communications Lead",
-      image: "/team/thomasgansa.png",
-      link: "https://www.linkedin.com/in/thomas-g-93ab0223a/"
+      name: "Sarah Korb",
+      title: "Fall '25 Technical Facilitator",
+      image: "/team/sarah_korb.jpeg",
+      link: "https://www.linkedin.com/in/sarah-korb/"
+    },
+    {
+      name: "Josh Ying",
+      title: "Spring '25 Technical Facilitator",
+      image: "/team/josh_ying.jpeg",
+      link: "https://www.linkedin.com/in/zhuofan-josh-ying-27444a273/"
     },
     {
       name: "Pranav Mehta",
-      title: "Policy Fellowship Lead",
+      title: "Spring '25 Policy Facilitator",
       image: "/team/pranav_mehta.jpeg",
       link: "https://www.linkedin.com/in/pranavmehta97/"
     },
     {
       name: "Catherine Mok",
-      title: "Technical Facilitator",
+      title: "Spring '25 Technical Facilitator",
       image: "/team/catherine_mok.jpg",
       link: "https://www.linkedin.com/in/catemok/"
     },
     {
-      name: "Josh Ying",
-      title: "Technical Facilitator",
-      image: "/team/josh_ying.jpeg",
-      link: "https://www.linkedin.com/in/zhuofan-josh-ying-27444a273/"
-    },
-    {
       name: "Junyao Chen",
-      title: "Technical Facilitator",
+      title: "Spring '25 Technical Facilitator",
       image: "/team/junyao_chen.jpg",
       link: "https://www.linkedin.com/in/jychen630/"
     },
     {
       name: "Akshay Manglik",
-      title: "Technical Facilitator",
+      title: "Spring '25 Technical Facilitator",
       image: "/team/akshay_manglik.jpg",
       link: "https://www.linkedin.com/in/akshay-manglik/"
     },
     {
       name: "Aiste Merfeldaite",
-      title: "Policy Facilitator",
+      title: "Spring '25 Policy Facilitator",
       image: "/team/aiste_merfeldaite.jpg",
       link: "https://www.linkedin.com/in/aiste-merfeldaite-56652020b/"
     },
     {
-      name: "Farhaan Siddiqui",
-      title: "Operations Assistant",
-      image: "/team/farhaan-siddiqui.jpg",
-      link: "https://www.linkedin.com/in/farhaan-s-797650224/"
+      name: "Thomas Gansa",
+      title: "Communications Lead, Alumni",
+      image: "/team/thomasgansa.png",
+      link: "https://www.linkedin.com/in/thomas-g-93ab0223a/"
     },
-    {
-      name: "Anwen Hao",
-      title: "Events Lead",
-      image: "/team/anwen_hao.jpg",
-      link: "https://www.linkedin.com/in/anwen-hao"
-    }
   ];
 
   const advisors = [
