@@ -21,7 +21,7 @@ export default function TeamPage() {
     {
       name: "Josefina Piddo",
       title: "Policy Director",
-      image: "/team/josefina_piddo.jpg",
+      image: "/team/josefina_piddo.png",
       link: "https://www.linkedin.com/in/josefina-piddo/"
     },
     {
