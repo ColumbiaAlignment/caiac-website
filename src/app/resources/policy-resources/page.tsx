@@ -48,12 +48,12 @@ const resources = [
   },
   {
     title: "Presidential Innovation Fellowship",
-    description: "A fellowship the brings technical individuals to government.",
+    description: "A fellowship that brings technical individuals to government.",
     link: "https://presidentialinnovationfellows.gov/"
   },
   {
     title: "AAAS Science & Technology Policy Fellowships (STPF)",
-    description: "(Copied) The fellowship program offers hands-on opportunities to apply your scientific knowledge and technical skills to important societal challenges.",
+    description: "The fellowship program offers hands-on opportunities to apply your scientific knowledge and technical skills to important societal challenges.",
     link: "http://www.stpf-aaas.org/"
   }
 ];
