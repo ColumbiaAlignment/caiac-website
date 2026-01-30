@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const FAQItem = ({ question, answer, isOpen, onClick }) => {
+const FAQItem = ({ question, answer, isOpen, onClick }: { question: string; answer: React.ReactNode; isOpen: boolean; onClick: () => void }) => {
   return (
     <div className="border-b border-gray-200 last:border-b-0">
       <button
@@ -30,7 +30,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
 export default function PolicyFellowshipPage() {
   const [openQuestions, setOpenQuestions] = useState(new Set());
 
-  const toggleQuestion = (index) => {
+  const toggleQuestion = (index: number) => {
     setOpenQuestions(prev => {
       const newSet = new Set(prev);
       if (newSet.has(index)) {
