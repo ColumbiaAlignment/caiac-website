@@ -71,7 +71,7 @@ export default async function Home() {
               We also run a semester-long introductory reading group on AI safety, including both a <a href="/get_involved/technical-fellowship" className="text-[#4A8A99] hover:underline">technical machine learning track</a>, and a <a href="/get_involved/policy-fellowship" className="text-[#4A8A99] hover:underline">policy track</a>.
             </p>
             <p><strong>Applications for both our fellowships are now open! Apply by February 6th.</strong></p>
-            <p><strong><a href="/events/spring-social" className="text-[#4A8A99] hover:underline">Join us for our Spring Social</a> on Tuesday, February 3rd at 7pm in Fayerweather 209! Come meet fellow members, grab some snacks, and chat about AI safety and research.</strong></p>
+            <p><strong><a href="/events/spring-social" className="text-[#4A8A99] hover:underline">Join us for our Spring Social</a> on Tuesday, February 3rd at 7pm in Fayerweather 209! </strong></p>
           </div>
 
           {/* Logos Section */}
