@@ -50,7 +50,7 @@ export default function SpringSocialPage() {
 
           <div className="flex justify-center pt-2">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc51ikVAmLDjDx216mCgioHgImXIgPpIY79b0DK7D3PSqdJtg/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdgMm9ZLdyZeERFSo1_ZMsognAjJqsLJF88YAlOzou482HYVQ/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-sm font-semibold tracking-wide text-[#023a87] border-2 border-[#023a87] px-10 py-3 hover:bg-[#023a87] hover:text-white transition-all duration-200"
