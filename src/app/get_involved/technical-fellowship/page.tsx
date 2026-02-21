@@ -126,7 +126,7 @@ export default function TechnicalFellowshipPage() {
             here 
           </a> for the curriculum (subject to change).
         </p>
-        <p><strong>Applications for the Spring 2026 Technical Fellowships are now open! <a href="https://docs.google.com/forms/d/e/1FAIpQLSc51ikVAmLDjDx216mCgioHgImXIgPpIY79b0DK7D3PSqdJtg/viewform">Apply here.</a></strong></p>
+        <p><strong>Applications for the Spring 2026 Technical Fellowships are now closed!</strong></p>
         <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
             href="/get_involved/policy-fellowship" 
             className="text-[#4A8A99] hover:underline"

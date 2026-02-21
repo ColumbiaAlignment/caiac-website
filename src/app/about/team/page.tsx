@@ -37,12 +37,6 @@ export default function TeamPage() {
       link: "https://www.linkedin.com/in/arjunbalaji02/"
     },
     {
-      name: "Anwen Hao",
-      title: "Events Co-Lead",
-      image: "/team/anwen_hao.jpg",
-      link: "https://www.linkedin.com/in/anwen-hao"
-    },
-    {
       name: "Emilio Barkett",
       title: "Fall '25 Policy Facilitator, Research Manager",
       image: "/team/emilio_barkett.jpg",

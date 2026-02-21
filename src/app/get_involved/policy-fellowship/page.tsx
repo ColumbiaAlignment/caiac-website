@@ -154,7 +154,7 @@ export default function PolicyFellowshipPage() {
           </a> for the curriculum (subject to change).
         </p>
 
-        <p><strong>Applications for the Spring 2026 Policy & Governance Fellowship are now open! <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfVuIlQNPrSyLEKsbf4uD7bifHw0Wa2XMW7rah3VSl1suAngQ/viewform">Apply here.</a></strong> </p>
+        <p><strong>Applications for the Spring 2026 Policy & Governance Fellowship are now closed!</strong></p>
         <p>For those interested in the technical side of AI safety, we recommend applying to our introductory <a 
             href="/get_involved/technical-fellowship" 
             className="text-[#4A8A99] hover:underline"
