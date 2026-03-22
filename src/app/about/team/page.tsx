@@ -1,42 +1,41 @@
 export default function TeamPage() {
   const teamMembers = [
     {
-      name: "Mannat Vikramaditya Jain",
-      title: "Co-Director",
-      image: "/team/mannat_jain.png",
-      link: "",
-      objectPosition: "50% 20%",
-    },
-    {
       name: "Olivia Long",
       title: "Co-Director",
       image: "/team/olivia_long.jpg",
       link: "https://www.linkedin.com/in/olivia-l-572351246",
     },
     {
+      name: "Mannat Vikramaditya Jain",
+      title: "Co-Director",
+      image: "/team/mannat_jain.png",
+      link: "https://www.linkedin.com/in/mannatvjain/",
+    },
+    {
       name: "Farhaan Siddiqui",
       title: "Operations Lead",
       image: "/team/farhaan-siddiqui.jpg",
-      link: "https://www.linkedin.com/in/farhaan-s-797650224/",
+      link: "https://www.linkedin.com/in/farhaan-siddiqui-797650224/",
     },
     {
       name: "Albert Ming Wei",
       title: "Events Lead",
       image: "/team/albert_ming_wei.jpg",
-      link: "",
+      link: "https://www.linkedin.com/in/albert-ming-wei-893348209/",
       objectPosition: "50% 30%",
     },
     {
       name: "Nick Meyer",
       title: "re:alignment",
       image: "/team/nick_meyer.jpeg",
-      link: "",
+      link: "https://www.linkedin.com/in/nickmeyer0/",
     },
     {
       name: "Ciarán Walsh",
       title: "Spring '26 Policy Facilitator",
       image: "/team/ciaran_walsh.jpeg",
-      link: "",
+      link: "https://www.linkedin.com/in/ciar%C3%A1n-walsh/",
       objectPosition: "10% 100%",
       scale: 1.3,
     },
@@ -44,13 +43,13 @@ export default function TeamPage() {
       name: "Arav Dhoot",
       title: "Spring '26 Technical Facilitator",
       image: "/team/arav_dhoot.jpeg",
-      link: "",
+      link: "https://www.linkedin.com/in/aravdhoot/",
     },
     {
       name: "Anay Garodia",
       title: "Spring '26 Technical Facilitator",
       image: "/team/anay_garodia.jpeg",
-      link: "",
+      link: "https://www.linkedin.com/in/anay-garodia-a863a6257/",
       objectPosition: "50% 30%",
     },
   ];
@@ -87,10 +86,16 @@ export default function TeamPage() {
       link: "https://www.linkedin.com/in/rohan-subramani-70a919225/",
     },
     {
+      name: "Yash Mangalick",
+      title: "Advisor",
+      image: "/team/yash_mangalick.jpg",
+      link: "https://www.linkedin.com/in/yash-mangalick-55b8771b3",
+    },
+    {
       name: "Ella Markianos",
       title: "Advisor",
       image: "/team/ella_markianos.jpg",
-      link: "https://www.linkedin.com/in/ella-poiger-markianos-7708a9237/",
+      link: "https://www.linkedin.com/in/ella-markianos-7708a9237/",
     },
   ];
 
