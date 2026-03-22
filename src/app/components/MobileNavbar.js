@@ -29,6 +29,7 @@ const MobileNavbar = () => {
     ],
     getInvolved: [
       { label: 'Technical Fellowship', href: '/get_involved/technical-fellowship' },
+      { label: 'Advanced Technical Fellowship', href: '/get_involved/advanced-technical-fellowship' },
       { label: 'Policy Fellowship', href: '/get_involved/policy-fellowship' },
       { label: 'Research Groups', href: '/get_involved/research-groups' }
     ],

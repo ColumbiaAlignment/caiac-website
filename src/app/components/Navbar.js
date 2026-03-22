@@ -84,12 +84,19 @@ export default function Navbar() {
                   </li>
                   
                   <li>
-                    <Link href="/get_involved/policy-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
+                    <Link href="/get_involved/advanced-technical-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
+                      ${isActive("/get_involved/advanced-technical-fellowship") ? "text-[#023a87]" : ""}`}>
+                      Advanced Technical Fellowship
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="/get_involved/policy-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
                       ${isActive("/get_involved/policy-fellowship") ? "text-[#023a87]" : ""}`}>
                       Policy Fellowship
                     </Link>
                   </li>
-                  
+
                   <li>
                     <Link href="/get_involved/research-groups" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
                       ${isActive("/get_involved/research-groups") ? "text-[#023a87]" : ""}`}>
