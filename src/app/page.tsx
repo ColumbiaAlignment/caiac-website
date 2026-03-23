@@ -8,14 +8,18 @@ export default async function Home() {
   // Function to read and parse markdown files
   const getNewsHeaders = async () => {
     const newsDir = path.join(process.cwd(), "src/app/news/entries");
-    const files = fs.readdirSync(newsDir).reverse().slice(0, 3); // Take the last 3 files
+    const files = fs.readdirSync(newsDir);
     const newsHeaders = files.map((file) => {
       const filePath = path.join(newsDir, file);
       const fileContents = fs.readFileSync(filePath, "utf8");
       const { data } = matter(fileContents);
-      return { title: data.title, date: data.date };
+      const [month, day, yearRaw] = data.date.split("-").map(Number);
+      const year = yearRaw < 100 ? 2000 + yearRaw : yearRaw;
+      const dateObj = new Date(year, month - 1, day);
+      return { title: data.title, date: data.date, dateObj };
     });
-    return newsHeaders;
+    newsHeaders.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
+    return newsHeaders.slice(0, 3);
   };
 
   const newsHeaders = await getNewsHeaders();
