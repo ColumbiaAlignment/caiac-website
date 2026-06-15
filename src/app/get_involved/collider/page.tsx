@@ -195,7 +195,7 @@ export default function ColliderPage() {
               rel="noopener noreferrer"
             >
               here
-            </a> for our Spring 2026 reading group curriculum (rough background for the reading group).
+            </a> for our Spring 2026 reading group curriculum (useful background for the reading group).
           </p>
         </div>
 
