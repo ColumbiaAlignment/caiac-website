@@ -120,7 +120,16 @@ export default function ColliderPage() {
             CAIAC @ Collider
           </h1>
           <p className="mt-5 max-w-2xl text-lg sm:text-xl text-white/90 font-light drop-shadow">
-            A summer paper club reading frontier research on AI safety, interpretability, and alignment science at Collider, NYC.
+            A summer paper club reading frontier research on AI safety, interpretability, and alignment science at{" "}
+            <a
+              href="https://collider.nyc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-inherit hover:no-underline"
+            >
+              Collider, NYC
+            </a>
+            .
           </p>
 
           <a
