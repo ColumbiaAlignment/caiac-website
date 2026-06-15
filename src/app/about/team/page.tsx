@@ -1,14 +1,8 @@
 export default function TeamPage() {
   const teamMembers = [
     {
-      name: "Olivia Long",
-      title: "Co-Director",
-      image: "/team/olivia_long.jpg",
-      link: "https://www.linkedin.com/in/olivia-l-572351246",
-    },
-    {
       name: "Mannat Vikramaditya Jain",
-      title: "Co-Director",
+      title: "Director and AIxBio Lead",
       image: "/team/mannat_jain.png",
       link: "https://www.linkedin.com/in/mannatvjain/",
     },
@@ -72,6 +66,12 @@ export default function TeamPage() {
       title: "Advisor and Former Director",
       image: "/team/yaumengwong.png",
       link: "https://www.linkedin.com/in/yau-meng-wong-721a5522b/",
+    },
+    {
+      name: "Olivia Long",
+      title: "Advisor and Former Director",
+      image: "/team/olivia_long.jpg",
+      link: "https://www.linkedin.com/in/olivia-l-572351246",
     },
     {
       name: "Alexandra Bates",
