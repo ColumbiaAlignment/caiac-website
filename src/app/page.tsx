@@ -16,7 +16,7 @@ export default async function Home() {
       const [month, day, yearRaw] = data.date.split("-").map(Number);
       const year = yearRaw < 100 ? 2000 + yearRaw : yearRaw;
       const dateObj = new Date(year, month - 1, day);
-      return { title: data.title, date: data.date, dateObj };
+      return { title: data.title, date: data.date, link: data.link || null, dateObj };
     });
     newsHeaders.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
     return newsHeaders.slice(0, 3);
@@ -99,67 +99,47 @@ export default async function Home() {
             </p>
             <p>
               <strong>
-                Applications for our introductory fellowships are now closed!
-                Click the links above for more information.
+                CAIAC is running a paper club at Collider this summer!
+                Learn more{" "}
+                <a
+                  href="/get_involved/collider"
+                  className="text-[#4A8A99] hover:underline"
+                >
+                  here
+                </a>
+                .
               </strong>
             </p>
           </div>
 
           {/* Logos Section */}
-          <div className="mt-24 text-center">
-            <h3 className="text-2xl font-semibold text-[#023a87]">
+          <div className="mt-24">
+            <h3 className="text-2xl font-semibold text-[#023a87] mb-10 text-center">
               Our past members have worked with:
             </h3>
-            <div className="mt-8 flex flex-col items-center gap-8">
-              <div className="flex items-center justify-center gap-8">
-                <img
-                  src="/orgs/anthropic_logo.svg"
-                  alt="Anthropic"
-                  className="h-10 object-contain"
-                />
-                <img
-                  src="/orgs/redwood_logo.svg"
-                  alt="Redwood Research"
-                  className="h-14 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <img
-                  src="/orgs/constellation_logo.svg"
-                  alt="Constellation"
-                  className="h-14 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center gap-8">
-                <img
-                  src="/orgs/mats_logo.png"
-                  alt="ML Alignment and Theory Scholars"
-                  className="h-12 object-contain"
-                />
-                <img
-                  src="/orgs/chai_logo.png"
-                  alt="CHAI"
-                  className="h-12 object-contain"
-                />
-                <img
-                  src="/orgs/xlab_logo.png"
-                  alt="XLab"
-                  className="h-12 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center gap-8">
-                <img
-                  src="/orgs/spar_logo.png"
-                  alt="Supervised Program for Alignment Research"
-                  className="h-12 object-contain"
-                />
-                <img
-                  src="/orgs/apollo_logo.png"
-                  alt="Apollo Research"
-                  className="h-12 object-contain"
-                />
-              </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 items-center gap-x-12 gap-y-12">
+              {[
+                { src: "/orgs/anthropic_logo.svg", alt: "Anthropic", h: "h-9" },
+                { src: "/orgs/openai_logo.svg", alt: "OpenAI", h: "h-7" },
+                { src: "/orgs/redwood_logo.svg", alt: "Redwood Research", h: "h-12" },
+                { src: "/orgs/constellation_logo.svg", alt: "Constellation", h: "h-12" },
+                { src: "/orgs/mats_logo.png", alt: "ML Alignment and Theory Scholars", h: "h-10" },
+                { src: "/orgs/goodfire_logo.svg", alt: "Goodfire", h: "h-8" },
+                { src: "/orgs/chai_logo.png", alt: "CHAI", h: "h-10" },
+                { src: "/orgs/xlab_logo.png", alt: "XLab", h: "h-10" },
+                { src: "/orgs/spar_logo.png", alt: "Supervised Program for Alignment Research", h: "h-10" },
+                { src: "/orgs/apollo_logo.png", alt: "Apollo Research", h: "h-10" },
+              ].map((logo) => (
+                <div key={logo.alt} className="flex justify-center">
+                  <img
+                    src={logo.src}
+                    alt={logo.alt}
+                    className={`${logo.h} object-contain grayscale transition-all duration-300 hover:grayscale-0`}
+                  />
+                </div>
+              ))}
             </div>
+            <div className="mt-14 h-px w-full bg-[#e7e5e0]" />
           </div>
 
           {/* News Section */}
@@ -177,7 +157,15 @@ export default async function Home() {
                   className="prose prose-lg text-gray-600 flex items-center"
                 >
                   <p className="text-sm text-gray-500 mr-4">{news.date}</p>
-                  <p>{news.title}</p>
+                  {news.link ? (
+                    <p>
+                      <a href={news.link} className="text-gray-800 hover:underline">
+                        {news.title}
+                      </a>
+                    </p>
+                  ) : (
+                    <p>{news.title}</p>
+                  )}
                 </div>
               ))}
             </div>
