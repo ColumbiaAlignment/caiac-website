@@ -77,7 +77,14 @@ export default function Navbar() {
                               group-hover:opacity-100 group-hover:visible transition-all duration-200 -translate-y-2 
                               group-hover:translate-y-0">
                   <li>
-                    <Link href="/get_involved/technical-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
+                    <Link href="/get_involved/collider" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
+                      ${isActive("/get_involved/collider") ? "text-[#023a87]" : ""}`}>
+                      CAIAC @ Collider
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="/get_involved/technical-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
                       ${isActive("/get_involved/technical-fellowship") ? "text-[#023a87]" : ""}`}>
                       Technical Fellowship
                     </Link>
@@ -98,7 +105,7 @@ export default function Navbar() {
                   </li>
 
                   <li>
-                    <Link href="/get_involved/research-groups" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
+                    <Link href="/get_involved/research-groups" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
                       ${isActive("/get_involved/research-groups") ? "text-[#023a87]" : ""}`}>
                       Research Groups
                     </Link>
