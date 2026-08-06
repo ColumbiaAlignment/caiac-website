@@ -2,7 +2,20 @@ export default function TeamPage() {
   const teamMembers = [
     {
       name: "Mannat Vikramaditya Jain",
-      title: "Director and AIxBio Lead",
+      title: (
+        <>
+          Director (on leave for{" "}
+          <a
+            href="https://www.matsprogram.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            MATS
+          </a>
+          )
+        </>
+      ),
       image: "/team/mannat_jain.png",
       link: "https://www.linkedin.com/in/mannatvjain/",
     },
