@@ -1,10 +1,65 @@
 export default function TeamPage() {
   const teamMembers = [
     {
+      name: "Jacob Ryabinky",
+      title: "Director",
+      image: "/team/jacob_ryabinky.png",
+      link: "https://www.linkedin.com/in/jacob-ryabinky-ba573626b/",
+    },
+    {
+      name: "Ciarán Walsh",
+      title: "Deputy Director",
+      image: "/team/ciaran_walsh.jpeg",
+      link: "https://www.linkedin.com/in/ciar%C3%A1n-walsh/",
+      objectPosition: "10% 100%",
+      scale: 1.3,
+    },
+    {
+      name: "Albert Ming Wei",
+      title: "Logistics Lead",
+      image: "/team/albert_ming_wei.jpg",
+      link: "https://www.linkedin.com/in/albert-ming-wei-893348209/",
+      objectPosition: "50% 30%",
+    },
+    {
+      name: "Peyton Jackson",
+      title: "Events Lead & Fall '26 Technical Facilitator",
+      image: "/team/peyton_jackson.png",
+      link: "https://www.linkedin.com/in/peyton-jackson-274957383/",
+    },
+    {
+      name: "Farhaan Siddiqui",
+      title: "Operations Lead",
+      image: "/team/farhaan-siddiqui.jpg",
+      link: "https://www.linkedin.com/in/farhaan-siddiqui-797650224/",
+    },
+    {
+      name: "Nick Meyer",
+      title: "re:alignment",
+      image: "/team/nick_meyer.jpeg",
+      link: "https://www.linkedin.com/in/nickmeyer0/",
+    },
+    {
+      name: "Anay Garodia",
+      title: "Fall '26 Technical Facilitator",
+      image: "/team/anay_garodia.jpeg",
+      link: "https://www.linkedin.com/in/anay-garodia-a863a6257/",
+      objectPosition: "50% 30%",
+    },
+  ];
+
+  const advisors = [
+    {
+      name: "Micah Goldblum",
+      title: "Faculty Advisor",
+      image: "/team/micah_goldblum.jpg",
+      link: "https://www.linkedin.com/in/micah-goldblum-9427b817b/",
+    },
+    {
       name: "Mannat Vikramaditya Jain",
       title: (
         <>
-          Director (on leave for{" "}
+          Advisor and Former Director (on leave for{" "}
           <a
             href="https://www.matsprogram.org/"
             target="_blank"
@@ -18,55 +73,6 @@ export default function TeamPage() {
       ),
       image: "/team/mannat_jain.png",
       link: "https://www.linkedin.com/in/mannatvjain/",
-    },
-    {
-      name: "Farhaan Siddiqui",
-      title: "Operations Lead",
-      image: "/team/farhaan-siddiqui.jpg",
-      link: "https://www.linkedin.com/in/farhaan-siddiqui-797650224/",
-    },
-    {
-      name: "Albert Ming Wei",
-      title: "Events Lead",
-      image: "/team/albert_ming_wei.jpg",
-      link: "https://www.linkedin.com/in/albert-ming-wei-893348209/",
-      objectPosition: "50% 30%",
-    },
-    {
-      name: "Nick Meyer",
-      title: "re:alignment",
-      image: "/team/nick_meyer.jpeg",
-      link: "https://www.linkedin.com/in/nickmeyer0/",
-    },
-    {
-      name: "Ciarán Walsh",
-      title: "Spring '26 Policy Facilitator",
-      image: "/team/ciaran_walsh.jpeg",
-      link: "https://www.linkedin.com/in/ciar%C3%A1n-walsh/",
-      objectPosition: "10% 100%",
-      scale: 1.3,
-    },
-    {
-      name: "Arav Dhoot",
-      title: "Spring '26 Technical Facilitator",
-      image: "/team/arav_dhoot.jpeg",
-      link: "https://www.linkedin.com/in/aravdhoot/",
-    },
-    {
-      name: "Anay Garodia",
-      title: "Spring '26 Technical Facilitator",
-      image: "/team/anay_garodia.jpeg",
-      link: "https://www.linkedin.com/in/anay-garodia-a863a6257/",
-      objectPosition: "50% 30%",
-    },
-  ];
-
-  const advisors = [
-    {
-      name: "Micah Goldblum",
-      title: "Faculty Advisor",
-      image: "/team/micah_goldblum.jpg",
-      link: "https://www.linkedin.com/in/micah-goldblum-9427b817b/",
     },
     {
       name: "Ryan Zhang",
@@ -113,6 +119,12 @@ export default function TeamPage() {
   ];
 
   const pastOrganizers = [
+    {
+      name: "Arav Dhoot",
+      title: "Spring '26 Technical Facilitator",
+      image: "/team/arav_dhoot.jpeg",
+      link: "https://www.linkedin.com/in/aravdhoot/",
+    },
     {
       name: "Paul Kroeger",
       title: "Former Director of Research",
