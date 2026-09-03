@@ -27,7 +27,7 @@ export default async function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="py-24 sm:py-32">
+      <div className="pt-12 pb-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-light tracking-tight text-[#023a87] sm:text-6xl">
