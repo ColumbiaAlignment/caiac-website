@@ -47,6 +47,26 @@ export default async function Home() {
                 Join our mailing list <span aria-hidden="true">→</span>
               </a>
             </div>
+            <div className="mt-6 flex items-center justify-center gap-x-6">
+              <a
+                href="https://forms.gle/xHhzbsfNDe6uLNe8A"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="max-w-full text-center text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
+              >
+                Technical fellowship application <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <div className="mt-6 flex items-center justify-center gap-x-6">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeTmiiuhA5it9AXg2T1TZfGXdMLJt8OJvO5ujFYX1rbRLi0iQ/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="max-w-full text-center text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
+              >
+                Policy and governance fellowship application <span aria-hidden="true">→</span>
+              </a>
+            </div>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="https://join.slack.com/t/caiac-workspace/shared_invite/zt-2z17aw892-P4ziYvV1hEerwEmhj5tKtA"
