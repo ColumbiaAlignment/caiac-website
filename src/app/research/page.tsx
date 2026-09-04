@@ -1,5 +1,17 @@
 const researchEntries = [
   {
+    title: "Sparse Autoencoder Interpretability of the METAGENE-1 Genomic Foundation Model",
+    authors: [
+      { name: "Mannat Vikramaditya Jain", isPI: true },
+      { name: "Peyton Jackson", isPI: true },
+      { name: "Bridget Liu" },
+      { name: "Ciaran Walsh", isPI: true },
+      { name: "Astrid Teo" }
+    ],
+    date: "April 27, 2026",
+    link: "https://apartresearch.com/project/sparse-autoencoder-interpretability-of-the-metagene1-genomic-foundation-model-cmuy"
+  },
+  {
     title: "The AI in the Mirror: LLM Self-Recognition in an Iterated Public Goods Game",
     authors: [
       { name: "Olivia Long", isPI: true },

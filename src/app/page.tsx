@@ -87,20 +87,18 @@ export default async function Home() {
           {/* Introduction */}
           <div className="prose prose-lg">
             <p className="text-lg leading-relaxed text-gray-600">
-              We think that reducing risks from advanced artificial intelligence
-              may be one of the most important problems of our time. We also
-              think that it’s an interesting and exciting problem, with open
-              opportunities for many more researchers to make progress on it. We
-              are a community of technical and policy researchers at Columbia
-              aimed at reducing these risks and steering the trajectory of AI
-              development for the better.
+              We are a community of technical and policy researchers at Columbia
+              aimed at steering the trajectory of AI development for the better by
+              reducing risks from advanced artificial intelligence — an endeavor we
+              think may be one of the most important problems of our time. We also
+              find it to be an interesting and exciting problem with ample
+              opportunities for many more researchers to work on it.
             </p>
+
             <p className="text-lg leading-relaxed text-gray-600">
-              CAIAC supports undergraduate and graduate students in conducting
-              research relevant to reducing risks from advanced AI.
-            </p>
-            <p className="text-lg leading-relaxed text-gray-600">
-              We also run a semester-long introductory reading group on AI
+              CAIAC supports undergraduate and graduate students in learning about
+              and conducting research relevant to reducing risks from advanced AI.
+              We also run semester-long introductory reading groups on AI
               safety, including both a{" "}
               <a
                 href="/get_involved/technical-fellowship"
@@ -117,19 +115,7 @@ export default async function Home() {
               </a>
               .
             </p>
-            <p>
-              <strong>
-                CAIAC is running a paper club at Collider this summer!
-                Learn more{" "}
-                <a
-                  href="/get_involved/collider"
-                  className="text-[#4A8A99] hover:underline"
-                >
-                  here
-                </a>
-                .
-              </strong>
-            </p>
+
           </div>
 
           {/* Logos Section */}
