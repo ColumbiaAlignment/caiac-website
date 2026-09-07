@@ -3,6 +3,9 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import { Book, Cog } from "lucide-react";
+import { FaSlack } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 export default async function Home() {
   // Function to read and parse markdown files
@@ -37,45 +40,60 @@ export default async function Home() {
               Research by Columbia students on catastrophic risks from advanced
               AI
             </h2>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=CUALIGNMENT&A=1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
-              >
-                Join our mailing list <span aria-hidden="true">→</span>
-              </a>
-            </div>
-            <div className="mt-6 flex items-center justify-center gap-x-6">
-              <a
-                href="https://forms.gle/xHhzbsfNDe6uLNe8A"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="max-w-full text-center text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
-              >
-                Technical fellowship application <span aria-hidden="true">→</span>
-              </a>
-            </div>
-            <div className="mt-6 flex items-center justify-center gap-x-6">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeTmiiuhA5it9AXg2T1TZfGXdMLJt8OJvO5ujFYX1rbRLi0iQ/viewform?usp=header"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="max-w-full text-center text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
-              >
-                Policy and governance fellowship application <span aria-hidden="true">→</span>
-              </a>
-            </div>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="https://join.slack.com/t/caiac-workspace/shared_invite/zt-2z17aw892-P4ziYvV1hEerwEmhj5tKtA"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
-              >
-                Join our Slack <span aria-hidden="true">→</span>
-              </a>
+            <div className="mx-auto mt-10 grid max-w-2xl gap-4 text-left md:grid-cols-2">
+              <section className="h-full rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-5">
+                <h3 className="text-xl font-semibold text-[#023a87]">
+                  Intro Fellowship Applications
+                </h3>
+                <div className="mt-4 grid grid-cols-2 gap-3">
+                  <a
+                    href="https://forms.gle/xHhzbsfNDe6uLNe8A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Apply to the technical fellowship"
+                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-[#023a87] bg-[#023a87] p-3 text-center text-white shadow-sm transition-colors hover:bg-[#002f70] hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
+                  >
+                    <Cog className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
+                    <span className="relative z-10 text-sm font-semibold sm:text-base">Technical</span>
+                  </a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeTmiiuhA5it9AXg2T1TZfGXdMLJt8OJvO5ujFYX1rbRLi0iQ/viewform?usp=header"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Apply to the policy fellowship"
+                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-gray-700 bg-gray-700 p-3 text-center text-white shadow-sm transition-colors hover:bg-gray-800 hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
+                  >
+                    <Book className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
+                    <span className="relative z-10 text-sm font-semibold sm:text-base">Policy</span>
+                  </a>
+                </div>
+              </section>
+
+              <section className="h-full rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-5">
+                <h3 className="text-xl font-semibold text-[#023a87]">
+                  Stay Connected
+                </h3>
+                <div className="mt-4 grid grid-cols-2 gap-3">
+                  <a
+                    href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=CUALIGNMENT&A=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-[#023a87] bg-[#023a87] p-3 text-center text-white shadow-sm transition-colors hover:bg-[#002f70] hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
+                  >
+                    <HiOutlineMail className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
+                    <span className="relative z-10 text-sm font-semibold sm:text-base">Mailing List</span>
+                  </a>
+                  <a
+                    href="https://join.slack.com/t/caiac-workspace/shared_invite/zt-2z17aw892-P4ziYvV1hEerwEmhj5tKtA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-gray-700 bg-gray-700 p-3 text-center text-white shadow-sm transition-colors hover:bg-gray-800 hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
+                  >
+                    <FaSlack className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
+                    <span className="relative z-10 text-sm font-semibold sm:text-base">Slack</span>
+                  </a>
+                </div>
+              </section>
             </div>
           </div>
         </div>
