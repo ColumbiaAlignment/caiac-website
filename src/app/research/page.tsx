@@ -1,5 +1,53 @@
 const researchEntries = [
   {
+    title: "LLM CoTs Remain Monitorable When Being Unfaithful Requires Computation",
+    authors: [
+      { name: "Arav Dhoot", isPI: true },
+      { name: "Yixiong Hao" }
+    ],
+    date: "July 15, 2026",
+    link: "https://www.lesswrong.com/posts/AoBTiL7XRRpwpev8p/cot-monitoring-still-only-breaks-on-simple-tasks"
+  },
+  {
+    title: "Sample-Level White-Box Detection of Alignment Faking",
+    authors: [
+      { name: "Lakshya Chaudhry" },
+      { name: "Tianqin Meng" },
+      { name: "Anthony Nguyen" },
+      { name: "Yashraj Panwar" },
+      { name: "Yuqi Sun" },
+      { name: "Zhuofan Ying", isPI: true }
+    ],
+    date: "July 10, 2026",
+    link: "https://openreview.net/forum?id=DwISGjooDa"
+  },
+  {
+    title: "Macro-Prudential AI Governance: A Two-Layer Early Warning and Response System for Frontier AI",
+    authors: [
+      { name: "Pranav Mehta", isPI: true }
+    ],
+    date: "July 3, 2026",
+    link: "https://arxiv.org/abs/2607.03542"
+  },
+  {
+    title: "Whose Alignment? Comparing LLM Process Alignment Across Diverse Organizational Decision Contexts",
+    authors: [
+      { name: "Niklas Weller" },
+      { name: "Emilio Barkett", isPI: true }
+    ],
+    date: "May 24, 2026",
+    link: "https://arxiv.org/abs/2605.25256"
+  },
+  {
+    title: "Representation Without Control: Testing the Realization Effect in Language Models",
+    authors: [
+      { name: "Ciarán Walsh", isPI: true },
+      { name: "Emilio Barkett", isPI: true }
+    ],
+    date: "May 24, 2026",
+    link: "https://arxiv.org/abs/2605.25151"
+  },
+  {
     title: "Sparse Autoencoder Interpretability of the METAGENE-1 Genomic Foundation Model",
     authors: [
       { name: "Mannat Vikramaditya Jain", isPI: true },
