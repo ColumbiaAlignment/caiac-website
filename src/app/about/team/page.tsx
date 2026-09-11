@@ -35,8 +35,8 @@ export default function TeamPage() {
     },
     {
       name: "Nick Meyer",
-      title: "re:alignment",
-      image: "/team/nick_meyer.jpeg",
+      title: "Fall '26 Advanced Technical Facilitator",
+      image: "/team/nick_meyer.png",
       link: "https://www.linkedin.com/in/nickmeyer0/",
     },
     {
