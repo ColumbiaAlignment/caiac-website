@@ -23,7 +23,7 @@ export default function TeamPage() {
     },
     {
       name: "Peyton Jackson",
-      title: "Events Lead & Fall '26 Technical Facilitator",
+      title: "Research & Events Lead",
       image: "/team/peyton_jackson.png",
       link: "https://www.linkedin.com/in/peyton-jackson-274957383/",
     },
@@ -75,16 +75,16 @@ export default function TeamPage() {
       link: "https://www.linkedin.com/in/mannatvjain/",
     },
     {
-      name: "Ryan Zhang",
-      title: "Advisor and Former Director",
-      image: "/team/ryan-zhang.jpg",
-      link: "https://www.linkedin.com/in/rhyzhang/",
-    },
-    {
       name: "Yau-Meng Wong",
       title: "Advisor and Former Director",
       image: "/team/yaumengwong.png",
       link: "https://www.linkedin.com/in/yau-meng-wong-721a5522b/",
+    },
+    {
+      name: "Ryan Zhang",
+      title: "Advisor and Former Director",
+      image: "/team/ryan-zhang.jpg",
+      link: "https://www.linkedin.com/in/rhyzhang/",
     },
     {
       name: "Olivia Long",

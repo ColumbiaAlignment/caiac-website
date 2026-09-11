@@ -58,14 +58,6 @@ export default function Navbar() {
                 </ul>
               </li>
 
-              {/* RESEARCH */}
-              <li>
-                <Link href="/research" className={`py-3 text-lg text-gray-600 hover:text-[#023a87] transition-colors
-                  ${isActive("/research") ? "text-[#023a87]" : ""}`}>
-                  Research
-                </Link>
-              </li>
-
               {/* GET INVOLVED */}
               <li className="relative group">
                 <span className={`cursor-pointer py-3 text-lg text-gray-600 hover:text-[#023a87] transition-colors ${
@@ -77,26 +69,12 @@ export default function Navbar() {
                               group-hover:opacity-100 group-hover:visible transition-all duration-200 -translate-y-2 
                               group-hover:translate-y-0">
                   <li>
-                    <Link href="/get_involved/collider" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
-                      ${isActive("/get_involved/collider") ? "text-[#023a87]" : ""}`}>
-                      CAIAC @ Collider
-                    </Link>
-                  </li>
-
-                  <li>
                     <Link href="/get_involved/technical-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
                       ${isActive("/get_involved/technical-fellowship") ? "text-[#023a87]" : ""}`}>
                       Technical Fellowship
                     </Link>
                   </li>
                   
-                  <li>
-                    <Link href="/get_involved/advanced-technical-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
-                      ${isActive("/get_involved/advanced-technical-fellowship") ? "text-[#023a87]" : ""}`}>
-                      Advanced Technical Fellowship
-                    </Link>
-                  </li>
-
                   <li>
                     <Link href="/get_involved/policy-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
                       ${isActive("/get_involved/policy-fellowship") ? "text-[#023a87]" : ""}`}>
@@ -105,12 +83,34 @@ export default function Navbar() {
                   </li>
 
                   <li>
+                    <Link href="/get_involved/advanced-technical-fellowship" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
+                      ${isActive("/get_involved/advanced-technical-fellowship") ? "text-[#023a87]" : ""}`}>
+                      Advanced Technical Fellowship
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="/get_involved/collider" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
+                      ${isActive("/get_involved/collider") ? "text-[#023a87]" : ""}`}>
+                      CAIAC at Collider
+                    </Link>
+                  </li>
+
+                  {/* <li>
                     <Link href="/get_involved/research-groups" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
                       ${isActive("/get_involved/research-groups") ? "text-[#023a87]" : ""}`}>
                       Research Groups
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
+              </li>
+
+              {/* RESEARCH */}
+              <li>
+                <Link href="/research" className={`py-3 text-lg text-gray-600 hover:text-[#023a87] transition-colors
+                  ${isActive("/research") ? "text-[#023a87]" : ""}`}>
+                  Research
+                </Link>
               </li>
 
               {/* RESOURCES */}

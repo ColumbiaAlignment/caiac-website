@@ -17,8 +17,8 @@ const MobileNavbar = () => {
   const navItems = {
     main: [
       { label: 'About', submenu: 'about' },
-      { label: 'Research', href: '/research' },
       { label: 'Get Involved', submenu: 'getInvolved' },
+      { label: 'Research', href: '/research' },
       { label: 'Resources', submenu: 'resources' },
       { label: 'News', href: '/news' }
     ],
@@ -28,11 +28,11 @@ const MobileNavbar = () => {
       
     ],
     getInvolved: [
-      { label: 'CAIAC @ Collider', href: '/get_involved/collider' },
       { label: 'Technical Fellowship', href: '/get_involved/technical-fellowship' },
-      { label: 'Advanced Technical Fellowship', href: '/get_involved/advanced-technical-fellowship' },
       { label: 'Policy Fellowship', href: '/get_involved/policy-fellowship' },
-      { label: 'Research Groups', href: '/get_involved/research-groups' }
+      { label: 'Advanced Technical Fellowship', href: '/get_involved/advanced-technical-fellowship' },
+      { label: 'CAIAC at Collider', href: '/get_involved/collider' },
+      // { label: 'Research Groups', href: '/get_involved/research-groups' }
     ],
     resources: [
       { label: 'Technical Resources', href: '/resources/technical-resources' },
