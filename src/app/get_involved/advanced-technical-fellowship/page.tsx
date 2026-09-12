@@ -171,6 +171,17 @@ export default function AdvancedTechnicalFellowshipPage() {
           </a>{" "}
           for more details on the fellowship structure.
         </p>
+        <div>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfp3WiQNi7XCOHYB6ju735U7jyNU0sMbN6M1kFBWT30ZRwAHA/viewform?usp=header"
+            className="inline-flex max-w-full items-center justify-center border border-[#023a87] px-6 py-3 text-center text-sm font-semibold text-[#023a87] transition-colors hover:bg-[#023a87] hover:text-white sm:text-base"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply to the Advanced Technical Fellowship{" "}
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
         <p>
           <strong>
             Applications for the Spring 2026 Advanced Technical Fellowship are
