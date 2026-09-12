@@ -183,13 +183,6 @@ export default function AdvancedTechnicalFellowshipPage() {
           </a>
         </div>
         <p>
-          <strong>
-            Applications for the Spring 2026 Advanced Technical Fellowship are
-            now closed!
-          </strong>
-        </p>
-
-        <p>
           If this is your first semester in the club, we recommend applying to
           our introductory{" "}
           <Link
