@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import MobileNavbar from "./MobileNavbar";
+import { navEvents } from "../events/events";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -145,6 +146,34 @@ export default function Navbar() {
                     </Link>
                   </li>
 
+                </ul>
+              </li>
+
+              {/* EVENTS */}
+              <li className="relative group">
+                <span className={`cursor-pointer py-3 text-lg text-gray-600 hover:text-[#023a87] transition-colors ${
+                  isSectionActive(['/events']) ? 'text-[#023a87]' : ''
+                }`}>
+                  Events
+                </span>
+                <ul className="absolute left-0 mt-3 w-64 bg-white rounded-lg shadow-lg py-2 opacity-0 invisible 
+                              group-hover:opacity-100 group-hover:visible transition-all duration-200 -translate-y-2 
+                              group-hover:translate-y-0">
+                  <li>
+                    <Link href="/events" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
+                      ${isActive("/events") ? "text-[#023a87]" : ""}`}>
+                      All Events
+                    </Link>
+                  </li>
+
+                  {navEvents().map((event) => (
+                    <li key={event.slug}>
+                      <Link href={`/events/${event.slug}`} className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50
+                        ${isActive(`/events/${event.slug}`) ? "text-[#023a87]" : ""}`}>
+                        {event.navLabel}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </li>
 

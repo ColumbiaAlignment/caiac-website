@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, ChevronLeft } from 'lucide-react';
+import { navEvents } from '../events/events';
 
 const MobileNavbar = () => {
   const pathname = usePathname();
@@ -20,6 +21,7 @@ const MobileNavbar = () => {
       { label: 'Get Involved', submenu: 'getInvolved' },
       { label: 'Research', href: '/research' },
       { label: 'Resources', submenu: 'resources' },
+      { label: 'Events', submenu: 'events' },
       { label: 'News', href: '/news' }
     ],
     about: [
@@ -38,6 +40,13 @@ const MobileNavbar = () => {
       { label: 'Technical Resources', href: '/resources/technical-resources' },
       { label: 'Policy Resources', href: '/resources/policy-resources' },
       { label: 'Blog', href: '/resources/blog' },
+    ],
+    events: [
+      { label: 'All Events', href: '/events' },
+      ...navEvents().map((event) => ({
+        label: event.navLabel,
+        href: `/events/${event.slug}`,
+      })),
     ]
   };
 
