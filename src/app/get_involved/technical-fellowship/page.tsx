@@ -126,6 +126,16 @@ export default function TechnicalFellowshipPage() {
             here 
           </a> for the curriculum (subject to change).
         </p>
+        <p className="text-lg">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScJw6BVrns8dgldpqVKAUNUGl5kUyFAPDBfxyzDaLXhR72iZA/viewform?usp=header"
+            className="text-[#4A8A99] hover:underline font-semibold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply to the Technical Fellowship
+          </a>
+        </p>
         <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
             href="/get_involved/policy-fellowship" 
             className="text-[#4A8A99] hover:underline"
