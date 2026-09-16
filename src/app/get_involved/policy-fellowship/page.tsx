@@ -154,6 +154,16 @@ export default function PolicyFellowshipPage() {
           </a> for the curriculum (subject to change).
         </p>
 
+        <p className="text-lg">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeTmiiuhA5it9AXg2T1TZfGXdMLJt8OJvO5ujFYX1rbRLi0iQ/viewform?usp=header"
+            className="text-[#4A8A99] hover:underline font-semibold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply to the Policy &amp; Governance Fellowship
+          </a>
+        </p>
         <p>For those interested in the technical side of AI safety, we recommend applying to our introductory <a 
             href="/get_involved/technical-fellowship" 
             className="text-[#4A8A99] hover:underline"
