@@ -162,7 +162,7 @@ export default function AdvancedTechnicalFellowshipPage() {
         <p className="text-lg">
           See{" "}
           <a
-            href="https://docs.google.com/document/d/1stZNBHFKgdQ5Ybw2Palq9AiavgdB_EkuF4E3N5IV62M/edit?usp=sharing"
+            href="https://docs.google.com/document/d/13SK0qCHo9yR2WSyHi05RCUCDGY5HWAOzv1gumYDKmpY/edit?tab=t.0#heading=h.c6ivfpz8bbwa"
             className="text-[#4A8A99] hover:underline"
             target="_blank"
             rel="noopener noreferrer"
