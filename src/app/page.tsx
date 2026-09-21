@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
-import { Book, Cog } from "lucide-react";
+import { Users } from "lucide-react";
 import { FaSlack } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
@@ -40,36 +40,8 @@ export default async function Home() {
               Research by Columbia students on catastrophic risks from advanced
               AI
             </h2>
-            <div className="mx-auto mt-10 grid max-w-2xl gap-4 text-left md:grid-cols-2">
-              <section className="h-full rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-5">
-                <h3 className="text-xl font-semibold text-[#023a87]">
-                  Intro Fellowship Applications
-                </h3>
-                <div className="mt-4 grid grid-cols-2 gap-3">
-                  <a
-                    href="https://forms.gle/xHhzbsfNDe6uLNe8A"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Apply to the technical fellowship"
-                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-[#023a87] bg-[#023a87] p-3 text-center text-white shadow-sm transition-colors hover:bg-[#002f70] hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
-                  >
-                    <Cog className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
-                    <span className="relative z-10 text-sm font-semibold sm:text-base">Technical</span>
-                  </a>
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeTmiiuhA5it9AXg2T1TZfGXdMLJt8OJvO5ujFYX1rbRLi0iQ/viewform?usp=header"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Apply to the policy fellowship"
-                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-gray-700 bg-gray-700 p-3 text-center text-white shadow-sm transition-colors hover:bg-gray-800 hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
-                  >
-                    <Book className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
-                    <span className="relative z-10 text-sm font-semibold sm:text-base">Policy</span>
-                  </a>
-                </div>
-              </section>
-
-              <section className="h-full rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-5">
+            <div className="mx-auto mt-10 grid max-w-2xl items-start gap-4 text-left md:grid-cols-2">
+              <section className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-5">
                 <h3 className="text-xl font-semibold text-[#023a87]">
                   Stay Connected
                 </h3>
@@ -94,6 +66,40 @@ export default async function Home() {
                   </a>
                 </div>
               </section>
+
+              <div className="md:contents">
+                <section className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-5">
+                  <h3 className="mb-4 text-xl font-semibold text-[#023a87]">
+                    Already familiar?
+                  </h3>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdQFSEiBcUKTxmN4E_Mv1qaYxyD_-OIPlhlSPVzq02U2ML6uQ/viewform?usp=dialog"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-[#023a87] bg-[#023a87] p-3 text-center text-white shadow-sm transition-colors hover:bg-[#002f70] hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
+                  >
+                    <Users className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
+                    <span className="relative z-10 text-sm font-semibold sm:text-base">Rolling Membership Application</span>
+                  </a>
+                </section>
+                <p className="mt-3 px-4 text-xs leading-4 text-gray-600 sm:px-5 md:col-span-2 md:mt-0 md:text-center">
+                  New to AI safety? Start with our intro{" "}
+                  <a
+                    href="/get_involved/technical-fellowship"
+                    className="text-[#4A8A99] hover:underline"
+                  >
+                    technical
+                  </a>{" "}
+                  or{" "}
+                  <a
+                    href="/get_involved/policy-fellowship"
+                    className="text-[#4A8A99] hover:underline"
+                  >
+                    policy
+                  </a>{" "}
+                  fellowships.
+                </p>
+              </div>
             </div>
           </div>
         </div>
