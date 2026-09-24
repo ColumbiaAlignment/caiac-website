@@ -1,8 +1,26 @@
 export default function TeamPage() {
   const teamMembers = [
     {
+      name: "Mannat Vikramaditya Jain",
+      title: (
+        <>
+          Director — on leave for{" "}
+          <a
+            href="https://www.matsprogram.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            MATS
+          </a>
+        </>
+      ),
+      image: "/team/mannat_jain.png",
+      link: "https://www.linkedin.com/in/mannatvjain/",
+    },
+    {
       name: "Jacob Ryabinky",
-      title: "Director",
+      title: "Interim Director",
       image: "/team/jacob_ryabinky.png",
       link: "https://www.linkedin.com/in/jacob-ryabinky-ba573626b/",
     },
@@ -33,6 +51,9 @@ export default function TeamPage() {
       image: "/team/farhaan-siddiqui.jpg",
       link: "https://www.linkedin.com/in/farhaan-siddiqui-797650224/",
     },
+  ];
+
+  const currentFacilitators = [
     {
       name: "Nick Meyer",
       title: "Fall '26 Advanced Technical Facilitator",
@@ -41,10 +62,37 @@ export default function TeamPage() {
     },
     {
       name: "Anay Garodia",
-      title: "Fall '26 Technical Facilitator",
+      title: "Technical Facilitator",
       image: "/team/anay_garodia.jpeg",
       link: "https://www.linkedin.com/in/anay-garodia-a863a6257/",
       objectPosition: "50% 30%",
+    },
+    {
+      name: "Peyton Jackson",
+      title: "Technical Facilitator",
+      image: "/team/peyton_jackson.png",
+      link: "https://www.linkedin.com/in/peyton-jackson-274957383/",
+    },
+    {
+      name: "Yau-Meng Wong",
+      title: "Technical Facilitator",
+      image: "/team/yaumengwong.png",
+      link: "https://www.linkedin.com/in/yau-meng-wong-721a5522b/",
+    },
+    {
+      name: "Ruhi Mudoi",
+      title: "Policy Facilitator",
+      image: "/team/ruhi_mudoi.png",
+    },
+    {
+      name: "Sonali Teja Rao",
+      title: "Policy Facilitator",
+      image: "/team/sonali_teja_rao.png",
+    },
+    {
+      name: "Fernando Maria Sanchez Garcia",
+      title: "Policy Facilitator",
+      image: "/team/fernando_maria_sanchez_garcia.png",
     },
   ];
 
@@ -54,25 +102,6 @@ export default function TeamPage() {
       title: "Faculty Advisor",
       image: "/team/micah_goldblum.jpg",
       link: "https://www.linkedin.com/in/micah-goldblum-9427b817b/",
-    },
-    {
-      name: "Mannat Vikramaditya Jain",
-      title: (
-        <>
-          Advisor and Former Director (on leave for{" "}
-          <a
-            href="https://www.matsprogram.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            MATS
-          </a>
-          )
-        </>
-      ),
-      image: "/team/mannat_jain.png",
-      link: "https://www.linkedin.com/in/mannatvjain/",
     },
     {
       name: "Yau-Meng Wong",
@@ -92,109 +121,109 @@ export default function TeamPage() {
       image: "/team/olivia_long.jpg",
       link: "https://www.linkedin.com/in/olivia-l-572351246",
     },
+  ];
+
+  const alumni = [
     {
       name: "Alexandra Bates",
-      title: "Advisor",
       image: "/team/alexandra_bates.jpg",
+      title: "Former Advisor",
       link: "https://www.linkedin.com/in/alexandrabates/",
     },
     {
       name: "Rohan Subramani",
-      title: "Advisor",
       image: "/team/rohan_subramani.jpg",
+      title: "Former Advisor",
       link: "https://www.linkedin.com/in/rohan-subramani-70a919225/",
     },
     {
       name: "Yash Mangalick",
-      title: "Advisor",
       image: "/team/yash_mangalick.jpg",
+      title: "Former Advisor",
       link: "https://www.linkedin.com/in/yash-mangalick-55b8771b3",
     },
     {
       name: "Ella Markianos",
-      title: "Advisor",
       image: "/team/ella_markianos.jpg",
+      title: "Former Advisor",
       link: "https://www.linkedin.com/in/ella-markianos-7708a9237/",
     },
-  ];
-
-  const pastOrganizers = [
     {
       name: "Arav Dhoot",
-      title: "Spring '26 Technical Facilitator",
       image: "/team/arav_dhoot.jpeg",
+      title: "Spring '26 Technical Facilitator",
       link: "https://www.linkedin.com/in/aravdhoot/",
     },
     {
       name: "Paul Kroeger",
-      title: "Former Director of Research",
       image: "/team/paul_kroeger.jpeg",
+      title: "Former Director of Research",
       link: "https://www.linkedin.com/in/paul-kroeger/",
     },
     {
       name: "Josefina Piddo",
-      title: "Former Policy Director",
       image: "/team/josefina_piddo.png",
+      title: "Former Policy Director",
       link: "https://www.linkedin.com/in/josefina-piddo/",
     },
     {
       name: "Arjun Balaji",
-      title: "Former Events Co-Lead",
       image: "/team/arjun_balaji.jpeg",
+      title: "Former Events Co-Lead",
       link: "https://www.linkedin.com/in/arjunbalaji02/",
     },
     {
       name: "Emilio Barkett",
-      title: "Fall '25 Policy Facilitator, Research Manager",
       image: "/team/emilio_barkett.jpg",
+      title: "Fall '25 Policy Facilitator, Research Manager",
       link: "https://www.linkedin.com/in/emiliobarkett/",
     },
     {
       name: "Sarah Korb",
-      title: "Fall '25 Technical Facilitator",
       image: "/team/sarah_korb.jpeg",
+      title: "Fall '25 Technical Facilitator",
       link: "https://www.linkedin.com/in/sarah-korb/",
     },
     {
       name: "Josh Ying",
-      title: "Spring '25 Technical Facilitator",
       image: "/team/josh_ying.jpeg",
+      title: "Spring '25 Technical Facilitator",
       link: "https://www.linkedin.com/in/zhuofan-josh-ying-27444a273/",
     },
     {
       name: "Pranav Mehta",
-      title: "Spring '25 Policy Facilitator",
       image: "/team/pranav_mehta.jpeg",
+      title: "Spring '25 Policy Facilitator",
       link: "https://www.linkedin.com/in/pranavmehta97/",
     },
     {
       name: "Catherine Mok",
-      title: "Spring '25 Technical Facilitator",
       image: "/team/catherine_mok.jpg",
+      title: "Spring '25 Technical Facilitator",
       link: "https://www.linkedin.com/in/catemok/",
     },
     {
       name: "Junyao Chen",
-      title: "Spring '25 Technical Facilitator",
       image: "/team/junyao_chen.jpg",
+      title: "Spring '25 Technical Facilitator",
       link: "https://www.linkedin.com/in/jychen630/",
     },
     {
       name: "Akshay Manglik",
-      title: "Spring '25 Technical Facilitator",
       image: "/team/akshay_manglik.jpg",
+      title: "Spring '25 Technical Facilitator",
       link: "https://www.linkedin.com/in/akshay-manglik/",
     },
     {
       name: "Aiste Merfeldaite",
-      title: "Spring '25 Policy Facilitator",
       image: "/team/aiste_merfeldaite.jpg",
+      title: "Spring '25 Policy Facilitator",
       link: "https://www.linkedin.com/in/aiste-merfeldaite-56652020b/",
     },
     {
       name: "Thomas Gansa",
-      title: "Communications Lead, Alumni",
       image: "/team/thomasgansa.png",
+      title: "Communications Lead, Alumni",
       link: "https://www.linkedin.com/in/thomas-g-93ab0223a/",
     },
   ];
@@ -272,7 +301,10 @@ export default function TeamPage() {
 
         <p className="text-center text-gray-600 italic mb-16"></p>
 
-        {/*Team Grid*/}
+        {/* Organizers Grid */}
+        <h2 className="text-3xl text-[#023a87] font-light mb-8 text-center">
+          Organizers
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
           {teamMembers.map((member) => (
             <div
@@ -302,6 +334,50 @@ export default function TeamPage() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Current Facilitators Grid */}
+        <div className="mt-16">
+          <h2 className="text-3xl text-[#023a87] font-light mb-8 text-center">
+            Current Facilitators
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+            {currentFacilitators.map((member) => {
+              const portrait = (
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover"
+                  style={{
+                    objectPosition: member.objectPosition || "center",
+                  }}
+                />
+              );
+
+              return (
+                <div
+                  key={member.name}
+                  className="flex flex-col items-center text-center group"
+                >
+                  <div className="mb-6 rounded-full overflow-hidden w-56 h-56 shadow-md">
+                    {member.link ? (
+                      <a href={member.link} title={member.name} target="_blank" rel="noopener noreferrer">
+                        {portrait}
+                      </a>
+                    ) : portrait}
+                  </div>
+
+                  <h3 className="text-2xl text-[#023a87] font-light mb-2">
+                    {member.name}
+                  </h3>
+
+                  <p className="text-gray-600 text-lg font-light italic">
+                    {member.title}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         {/*Advisor Grid*/}
@@ -337,29 +413,36 @@ export default function TeamPage() {
           </div>
         </div>
 
-        {/* Past Organizers Grid */}
+        {/* Alumni Grid */}
         <div className="mt-16">
           <h2 className="text-3xl text-[#023a87] font-light mb-8 text-center">
-            Past Organizers
+            Alumni
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
-            {pastOrganizers.map((member) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8">
+            {alumni.map((member) => (
               <div
                 key={member.name}
-                className="flex flex-col items-center text-center group"
+                className="relative flex flex-col items-center text-center group"
               >
-                <div className="mb-6 rounded-full overflow-hidden w-56 h-56 shadow-md">
-                  <a href={member.link} title={member.name} target="_blank">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </a>
+                <div
+                  className="pointer-events-none invisible absolute bottom-full left-1/2 z-20 -translate-x-1/2 pb-3 opacity-0 transition-opacity duration-150 motion-reduce:transition-none group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"
+                  aria-hidden="true"
+                >
+                  <img
+                    src={member.image}
+                    alt=""
+                    className="h-40 w-40 rounded-full border-4 border-white object-cover shadow-xl"
+                  />
                 </div>
-
                 <h3 className="text-2xl text-[#023a87] font-light mb-2">
-                  {member.name}
+                  <a
+                    href={member.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-sm hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#023a87]"
+                  >
+                    {member.name}
+                  </a>
                 </h3>
 
                 <p className="text-gray-600 text-lg font-light italic">
