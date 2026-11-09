@@ -1,5 +1,5 @@
 // components/Footer.jsx
-import { FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -35,6 +35,14 @@ export default function Footer() {
                   className="text-white hover:text-gray-300 transition-colors"
                 >
                   <FaGithub className="inline-block h-8 w-8" />
+                </a>
+                <a
+                  href="https://www.instagram.com/columbiaalignment/"
+                  target="_blank" rel="noopener noreferrer"
+                  aria-label="CAIAC on Instagram"
+                  className="text-white hover:text-gray-300 transition-colors"
+                >
+                  <FaInstagram className="inline-block h-8 w-8" />
                 </a>
               </div>
             </div>

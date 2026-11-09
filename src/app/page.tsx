@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import { Users } from "lucide-react";
-import { FaSlack } from "react-icons/fa";
+import { FaInstagram, FaSlack } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 export default async function Home() {
@@ -45,7 +45,7 @@ export default async function Home() {
                 <h3 className="text-xl font-semibold text-[#023a87]">
                   Stay Connected
                 </h3>
-                <div className="mt-4 grid grid-cols-2 gap-3">
+                <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-3">
                   <a
                     href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=CUALIGNMENT&A=1"
                     target="_blank"
@@ -63,6 +63,15 @@ export default async function Home() {
                   >
                     <FaSlack className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
                     <span className="relative z-10 text-sm font-semibold sm:text-base">Slack</span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/columbiaalignment/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative flex min-h-16 items-center justify-center overflow-hidden rounded-md border border-[#8b3c70] bg-[#8b3c70] p-2 text-center text-white shadow-sm transition-colors hover:bg-[#702f5b] hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#023a87] focus-visible:ring-offset-2"
+                  >
+                    <FaInstagram className="absolute h-10 w-10 opacity-20" aria-hidden="true" />
+                    <span className="relative z-10 text-sm font-semibold sm:text-base">Instagram</span>
                   </a>
                 </div>
               </section>
